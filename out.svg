@@ -1,0 +1,174 @@
+<svg version="1.1" baseProfile="full" width="1635.0" height="161.0" viewBox="0 0 1635 161" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[&lt;interface&gt;ILayout|+backLink?: string|]
+[&lt;interface&gt;ISelectProducts|+productsList?: IProduct\[\];+selectedProducts: ISelectedProduct\[\];+setSelectedProduct: Dispatch&lt;SetStateAction&lt;ISelectedProduct\[\]&gt;&gt;|]
+[&lt;interface&gt;IOption|+label: string;+value: string;+unit: string|]
+[&lt;interface&gt;IRecipeCard|+name: string;+id: string;+imageUrl?: string|]
+[&lt;interface&gt;ISearchRecipes|+productsList?: IProduct\[\]|]
+[&lt;interface&gt;IOption|+label: string;+value: string;+unit: string|]
+[&lt;interface&gt;IMenu|+isOpen: boolean|]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="161.0" width="1635.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="ILayout">
+<g fill="lightblue" stroke="#33322E" data-name="ILayout">
+<rect x="0.0" y="16.5" height="72.0" width="161.0" data-name="ILayout"></rect>
+<path d="M0.0 48.5 L161.0 48.5" fill="none" data-name="ILayout"></path>
+<path d="M0.0 80.5 L161.0 80.5" fill="none" data-name="ILayout"></path>
+</g>
+<g transform="translate(0, 16.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ILayout" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ILayout" data-compartment="0">
+<a id="src\components\layout\Layout.ts.ILayout" xlink:href="src\components\layout\Layout.ts"><text x="72.5" y="14.1" stroke="none" text-anchor="middle" data-name="ILayout" data-compartment="0">ILayout</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 48.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ILayout" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ILayout" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ILayout" data-compartment="1">+backLink?: string</text>
+
+</g>
+</g>
+<g transform="translate(0, 80.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ILayout" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ILayout" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="ISelectProducts">
+<g fill="lightblue" stroke="#33322E" data-name="ISelectProducts">
+<rect x="201.0" y="0.0" height="105.0" width="560.0" data-name="ISelectProducts"></rect>
+<path d="M201.0 32.0 L761.0 32.0" fill="none" data-name="ISelectProducts"></path>
+<path d="M201.0 97.0 L761.0 97.0" fill="none" data-name="ISelectProducts"></path>
+</g>
+<g transform="translate(201, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ISelectProducts" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ISelectProducts" data-compartment="0">
+<a id="src\components\ui\select-products\SelectProducts.ts.ISelectProducts" xlink:href="src\components\ui\select-products\SelectProducts.ts"><text x="272.0" y="14.1" stroke="none" text-anchor="middle" data-name="ISelectProducts" data-compartment="0">ISelectProducts</text></a>
+
+</g>
+</g>
+<g transform="translate(201, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ISelectProducts" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ISelectProducts" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ISelectProducts" data-compartment="1">+productsList?: IProduct[]</text>
+<text x="0.0" y="30.3" stroke="none" data-name="ISelectProducts" data-compartment="1">+selectedProducts: ISelectedProduct[]</text>
+<text x="0.0" y="46.5" stroke="none" data-name="ISelectProducts" data-compartment="1">+setSelectedProduct: Dispatch&lt;SetStateAction&lt;ISelectedProduct[]&gt;&gt;</text>
+
+</g>
+</g>
+<g transform="translate(201, 97)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ISelectProducts" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ISelectProducts" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="IOption">
+<g fill="lightblue" stroke="#33322E" data-name="IOption">
+<rect x="801.0" y="0.0" height="105.0" width="123.0" data-name="IOption"></rect>
+<path d="M801.0 32.0 L924.0 32.0" fill="none" data-name="IOption"></path>
+<path d="M801.0 97.0 L924.0 97.0" fill="none" data-name="IOption"></path>
+</g>
+<g transform="translate(801, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IOption" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="IOption" data-compartment="0">
+<a id="src\components\screens\home\search-recipes\SearchRecipes.ts.IOption" xlink:href="src\components\screens\home\search-recipes\SearchRecipes.ts"><text x="53.5" y="14.1" stroke="none" text-anchor="middle" data-name="IOption" data-compartment="0">IOption</text></a>
+
+</g>
+</g>
+<g transform="translate(801, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IOption" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="IOption" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="IOption" data-compartment="1">+label: string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="IOption" data-compartment="1">+value: string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="IOption" data-compartment="1">+unit: string</text>
+
+</g>
+</g>
+<g transform="translate(801, 97)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IOption" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="IOption" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="IRecipeCard">
+<g fill="lightblue" stroke="#33322E" data-name="IRecipeCard">
+<rect x="964.0" y="0.0" height="105.0" width="160.0" data-name="IRecipeCard"></rect>
+<path d="M964.0 32.0 L1124.0 32.0" fill="none" data-name="IRecipeCard"></path>
+<path d="M964.0 97.0 L1124.0 97.0" fill="none" data-name="IRecipeCard"></path>
+</g>
+<g transform="translate(964, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IRecipeCard" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="IRecipeCard" data-compartment="0">
+<a id="src\components\screens\home\recipe-card\RecipeCard.ts.IRecipeCard" xlink:href="src\components\screens\home\recipe-card\RecipeCard.ts"><text x="72.0" y="14.1" stroke="none" text-anchor="middle" data-name="IRecipeCard" data-compartment="0">IRecipeCard</text></a>
+
+</g>
+</g>
+<g transform="translate(964, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IRecipeCard" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="IRecipeCard" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="IRecipeCard" data-compartment="1">+name: string</text>
+<text x="0.0" y="30.3" stroke="none" data-name="IRecipeCard" data-compartment="1">+id: string</text>
+<text x="0.0" y="46.5" stroke="none" data-name="IRecipeCard" data-compartment="1">+imageUrl?: string</text>
+
+</g>
+</g>
+<g transform="translate(964, 97)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IRecipeCard" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="IRecipeCard" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="ISearchRecipes">
+<g fill="lightblue" stroke="#33322E" data-name="ISearchRecipes">
+<rect x="1164.0" y="16.5" height="72.0" width="219.0" data-name="ISearchRecipes"></rect>
+<path d="M1164.0 48.5 L1383.0 48.5" fill="none" data-name="ISearchRecipes"></path>
+<path d="M1164.0 80.5 L1383.0 80.5" fill="none" data-name="ISearchRecipes"></path>
+</g>
+<g transform="translate(1164, 16.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ISearchRecipes" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ISearchRecipes" data-compartment="0">
+<a id="src\components\screens\home\search-recipes\SearchRecipes.ts.ISearchRecipes" xlink:href="src\components\screens\home\search-recipes\SearchRecipes.ts"><text x="101.5" y="14.1" stroke="none" text-anchor="middle" data-name="ISearchRecipes" data-compartment="0">ISearchRecipes</text></a>
+
+</g>
+</g>
+<g transform="translate(1164, 48.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ISearchRecipes" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ISearchRecipes" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="ISearchRecipes" data-compartment="1">+productsList?: IProduct[]</text>
+
+</g>
+</g>
+<g transform="translate(1164, 80.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ISearchRecipes" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ISearchRecipes" data-compartment="2">
+
+</g>
+</g>
+</g>
+<g data-name="IMenu">
+<g fill="lightblue" stroke="#33322E" data-name="IMenu">
+<rect x="1423.0" y="16.5" height="72.0" width="156.0" data-name="IMenu"></rect>
+<path d="M1423.0 48.5 L1579.0 48.5" fill="none" data-name="IMenu"></path>
+<path d="M1423.0 80.5 L1579.0 80.5" fill="none" data-name="IMenu"></path>
+</g>
+<g transform="translate(1423, 16.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IMenu" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="IMenu" data-compartment="0">
+<a id="src\components\layout\header\hamburder\menu\Menu.ts.IMenu" xlink:href="src\components\layout\header\hamburder\menu\Menu.ts"><text x="70.0" y="14.1" stroke="none" text-anchor="middle" data-name="IMenu" data-compartment="0">IMenu</text></a>
+
+</g>
+</g>
+<g transform="translate(1423, 48.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IMenu" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="IMenu" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="IMenu" data-compartment="1">+isOpen: boolean</text>
+
+</g>
+</g>
+<g transform="translate(1423, 80.5)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="IMenu" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="IMenu" data-compartment="2">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

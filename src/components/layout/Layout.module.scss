@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 25px;
+  max-width: 1100px;
+  margin: 0 auto 0 auto;
+  background-color: rgba(172, 119, 35, 0.699);
+  border-radius: 10px;
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}

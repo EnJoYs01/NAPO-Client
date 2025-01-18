@@ -1,0 +1,21 @@
+.recipe {
+	display: flex;
+	flex-direction: column;
+	color: #000;
+	gap: 30px;
+	
+	h1 {
+		text-align: center;
+		line-height: 1.2;
+	}
+	
+	img {
+		width: 700px;
+		height: 400px;
+		margin: 0 auto;
+	}
+	
+	p {
+		margin-left: 50px;
+	}
+}
